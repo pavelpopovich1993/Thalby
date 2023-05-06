@@ -224,3 +224,20 @@ header .container{
     text-align: center;
     display: block;
 }
+
+.culture{
+    background-color: rgba(204, 204, 204, 0.6);
+    padding-top: 76px;
+    padding-bottom: 50px;
+}
+.culture .people-text{
+    margin-right: 50px;
+    text-align: right;
+}
+.culture .for-img{
+    max-width: 385px;
+}
+.culture .for-img img{
+    width: 100%;
+    display: block;
+}
