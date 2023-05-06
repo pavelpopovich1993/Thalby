@@ -259,3 +259,77 @@ header .container{
     width: 100%;
     display: block;
 }
+
+.features{
+    background-color: white;
+    padding-top: 190px;
+    padding-bottom: 53px;
+}
+.features h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 70px;
+}
+.features .container{
+    flex-wrap: wrap;
+}
+.features .container .point:nth-child(1) p:first-child{
+    display: inline;
+    background: rgba(33, 247, 236, 1);
+    content: "#";
+    padding: 35px 35px 35px 35px;
+    border-radius: 35px;
+}
+.features .container .point:nth-child(2) p:first-child{
+    display: inline;
+    background: rgba(51, 211, 188, 1);
+    content: "#";
+    padding: 35px 35px 35px 35px;
+    border-radius: 35px;
+}
+.features .container .point:nth-child(3) p:first-child{
+    display: inline;
+    background: rgba(24, 165, 198, 1);
+    content: "#";
+    padding: 35px 35px 35px 35px;
+    border-radius: 35px;
+}
+.features .container .point:nth-child(4) p:first-child{
+    display: inline;
+    background: rgba(211, 143, 98, 1);
+    content: "#";
+    padding: 35px 35px 35px 35px;
+    border-radius: 35px;
+}
+.features .container .point:nth-child(5) p:first-child{
+    display: inline;
+    background: rgba(249, 76, 67, 1);
+    content: "#";
+    padding: 35px 35px 35px 35px;
+    border-radius: 35px;
+}
+.features .container .point:nth-child(6) p:first-child{
+    display: inline;
+    background: rgba(211, 153, 255, 1);
+    content: "#";
+    padding: 35px 35px 35px 35px;
+    border-radius: 35px;
+}
+.features .container p:last-child{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    padding-top: 26px;
+}
+.point{
+    flex-direction: column;
+    width: 340px;
+    padding-bottom: 110px;
+}
