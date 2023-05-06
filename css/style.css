@@ -98,3 +98,44 @@ header .container{
     padding: 7px 23px;
 }
 
+.peoplesociety{
+    background-color:
+            rgba(204, 204, 204, 0.3);
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.peoplesociety .for-img{
+    max-width: 385px;
+}
+.peoplesociety .for-img img{
+    width: 100%;
+    display: block;
+}
+.people-text{
+    max-width: 510px;
+    margin-left: 50px;
+}
+.people-text h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.people-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.people-text a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
