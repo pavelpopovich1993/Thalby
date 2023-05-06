@@ -333,3 +333,61 @@ header .container{
     width: 340px;
     padding-bottom: 110px;
 }
+
+.each-thalby{
+    background-color: white;
+}
+.each-thalby h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 290px;
+}
+.each-thalby .persones{
+    background-color: rgba(240, 240, 240, 1);
+}
+.each-thalby .persones .for-img{
+    max-width: 288px;
+}
+.each-thalby .persones .for-img img{
+    width: 100%;
+    display: block;
+}
+.each-thalby .persones p:nth-child(2){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+    padding-bottom: 40px;
+    max-width: 248px;
+    margin: auto;
+}
+.each-thalby .persones p:nth-child(3){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 44px;
+}
+.each-thalby .persones a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-bottom: 52px;
+    display: block;
+}
+.persones-block{
+    margin-top: -180px;
+}
