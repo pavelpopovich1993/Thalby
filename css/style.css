@@ -452,3 +452,83 @@ header .container{
     color: #FFFFFF;
     margin-top: 18px;
 }
+
+footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+footer .container{
+    justify-content: flex-end;
+}
+footer a{
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer .for-img{
+    padding-bottom: 37px;
+}
+footer .links{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+footer .links ul li{
+    margin-right: 20px;
+}
+footer .about{
+    margin-right: 73px;
+}
+footer .about ul li{
+    padding-bottom: 12px;
+}
+footer .about ul li:first-child{
+    padding-bottom: 36px;
+}
+footer .about ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+footer .about ul li a:first-child{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+footer .contact ul li{
+    padding-bottom: 12px;
+}
+footer .contact ul li:first-child{
+    padding-bottom: 36px;
+}
+footer .contact ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+footer .contact ul li a:first-child{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+footer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
