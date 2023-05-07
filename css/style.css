@@ -20,6 +20,7 @@ header .container{
     left: 50%;
     margin-left: -40px;
     margin-top: -12.5px;
+    max-width: 80px;
 }
 
 .d-flex{
