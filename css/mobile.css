@@ -1,22 +1,130 @@
-@media(max-width: 768px){
+@media(max-width: 768px) {
 
-    header .container{
+    header .container {
         display: block;
     }
-    header .logo{
+
+    header .logo {
         position: relative;
         margin: 0;
         top: 0;
         left: 50%;
         margin-left: -40px;
     }
-    .maincontainer h1{
+
+    .maincontainer {
+        padding: 25px 0;
+    }
+
+    .maincontainer h1 {
         margin-bottom: 21px;
         font-size: 30px;
         line-height: 30px;
     }
-    .maincontainer p{
+
+    .maincontainer p {
         font-size: 16px;
+    }
+
+    .our-guides {
+        padding-top: 30px;
+        padding-bottom: 43px;
+    }
+
+    .our-guides h2 {
+        line-height: 21px;
+        font-size: 16px;
+        padding-bottom: 14px;
+    }
+
+    .our-guides p:nth-child(2) {
+        line-height: 14px;
+        font-size: 14px;
+        padding-bottom: 23px;
+    }
+
+    .our-guides p:last-child {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .best-sellers .for-img img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .owl-carousel .owl-nav .owl-prev {
+        left: 25px;
+    }
+
+    .owl-carousel .owl-nav .owl-prev:after {
+        font-size: 25px;
+    }
+
+    .owl-carousel .owl-nav .owl-next {
+        right: 25px;
+    }
+
+    .owl-carousel .owl-nav .owl-next:after {
+        font-size: 25px;
+    }
+
+    .best-sellers {
+        padding-bottom: 50px;
+    }
+
+    .peoplesociety {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .people-text h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .people-text p {
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+
+    .culture {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .power {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .features{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .features h3{
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 35px;
+    }
+    .features .container .point p:first-child{
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .features .container p:last-child{
+        font-size: 16px;
+        line-height: 16px;
+        padding-top: 13px;
+    }
+    .point{
+        width: 100px;
+        padding-bottom: 40px;
+    }
+    .each-thalby h3{
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 100px;
     }
 }
 @media(max-width: 820px){
