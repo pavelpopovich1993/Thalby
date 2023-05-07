@@ -64,18 +64,15 @@ header .container{
 
 .maincontainer{
     background-color: #F0EFEB;
-    position: relative;
     padding: 90px 0;
 }
-.maincontainer .maincontainer-text{
-    max-width: 50vw;
-}
-.maincontainer img{
-    position: absolute;
-    left: 50%;
-    top: 0;
-    margin-top: -90px;
 
+.maincontainer .for-img{
+    max-width: 500px;
+}
+.maincontainer .for-img img{
+    width: 100%;
+    display: block;
 }
 
 .maincontainer h1{
@@ -208,9 +205,9 @@ header .container{
 }
 .owl-carousel .owl-nav .owl-prev{
     position: absolute;
-    left: 0;
+    left: -10px;
     top: 30%;
-    margin-left: -16px;
+
 }
 .owl-carousel .owl-nav .owl-prev:after{
     font-family: "Font Awesome 6 Free";
@@ -221,9 +218,9 @@ header .container{
 }
 .owl-carousel .owl-nav .owl-next{
     position: absolute;
-    right: 0;
+    right: -10px;
     top: 30%;
-    margin-right: -15px;
+
 }
 .owl-carousel .owl-nav .owl-next:after{
     font-family: "Font Awesome 6 Free";
