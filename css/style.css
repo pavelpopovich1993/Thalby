@@ -7,20 +7,19 @@
 header{
     background-color: white;
     padding: 8px 0;
+    position: relative;
 }
 header ul{
     list-style: none;
 }
-header .container{
-    position: relative;
-}
+
 .logo{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -40px;
-    margin-top: -12.5px;
+    top: 0;
+    margin-top: 7px;
+    margin-left: 25px;
     max-width: 80px;
+    z-index: 2;
 }
 
 .d-flex{
@@ -40,9 +39,7 @@ header .container{
     margin: auto;
     max-width: 1064px;
 }
-.container nav ul{
-    justify-content: space-around;
-}
+
 .container nav ul li a{
     text-decoration: none;
     font-style: normal;
@@ -50,7 +47,15 @@ header .container{
     font-size: 16px;
     line-height: 26px;
     color: #1C1B1B;
-    padding-right: 28px;
+}
+.socials{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.socials button{
+    background: none;
+    border: none;
 }
 
 .socials ul li a{
@@ -541,4 +546,56 @@ footer p{
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.ui-accordion .ui-accordion-header{
+    display: inline;
+    position: relative;
+    background: none;
+    padding: 0;
+    border: none;
+    color: black;
+}
+.ui-state-hover .ui-icon{
+    display: none;
+}
+.ui-accordion .ui-accordion-content{
+    padding: 0;
+    background: none;
+    border: none;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    display: none;
+}
+.ui-icon, .ui-widget-content .ui-icon{
+    display: none;
+}
+
+.ui-draggable .ui-dialog-titlebar{
+    display: none;
+}
+.ui-dialog .ui-dialog-content{
+    padding: 0;
+    border: none;
+}
+div#dialog{
+    min-height: auto!important;
+}
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable{
+    position: absolute!important;
+    top: 0!important;
+    margin-top: 40px!important;
+    right: 0!important;
+    max-width: 180px!important;
+    left: auto!important;
+
+}
+.for-input{
+    max-width: 60px;
+}
+.search-area{
+    max-width: 120px;
+}
+.search-button{
+    max-width: 60px;
 }

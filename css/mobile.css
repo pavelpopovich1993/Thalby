@@ -2,23 +2,9 @@
     header .container nav ul li a{
         padding-right: 14px;
     }
-    header .socials ul{
-        justify-content: center;
-    }
 }
 @media(max-width: 768px) {
 
-    header .container {
-        display: block;
-    }
-
-    header .logo {
-        position: relative;
-        margin: 0;
-        top: 0;
-        left: 50%;
-        margin-left: -40px;
-    }
 
     .maincontainer {
         padding: 25px 0;
@@ -126,7 +112,7 @@
         padding-top: 13px;
     }
     .point{
-        max-width: 149px;
+        max-width: 200px;
         padding-bottom: 40px;
     }
     .persones .container{
